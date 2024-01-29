@@ -1,0 +1,161 @@
+/*Navbar*/
+
+
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Raleway;
+  font-weight: bold;
+  text-align: center;
+}
+
+.header {
+  top: 0;
+  width: 100%;
+  padding: 20px 0;
+  background: white;
+  height: 65px;
+  position: fixed;
+  z-index: 1000;
+}
+
+
+.navbarelement {
+  position: relative;
+  font-size: 18px;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.navbarlink::before {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: black;
+  transition: .3s;
+}
+
+
+.navbarlink:hover::before {
+  width: 100%;
+}
+
+
+
+#Homelink {
+  font-weight: bold;
+  color: black;
+}
+
+#Createlink {
+  color: rgb(232, 203, 34);
+}
+
+#Explorelink {
+  color: rgb(106, 165, 37);
+}
+
+#Elevatelink {
+  color: rgb(255, 166, 48);
+}
+
+#signupbuttonnavbar {
+  background: rgb(218, 51, 21);
+  border-radius: 25px;
+  border: none;
+  padding-bottom: 5px;
+  transition: 0.5s;
+  padding-top: 5px;
+  padding-right: 11px;
+  padding-left: 11px;
+  color: #000;
+  font-size: 18px;
+}
+
+#signupbuttonnavbar:hover {
+  color: rgb(218, 51, 21);
+  background-color: black;
+}
+
+
+
+/*Navbar*/
+
+
+#create {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+}
+
+body {
+  background-image: url("../photos/istockphoto-873788294-612x612.png");
+  background-repeat: repeat-x, repeat y;
+
+}
+
+#chainsaw {
+  border-radius: 50%;
+  margin-top: -20%;
+  width: 70%;
+}
+
+#para1 {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+}
+
+#workshop1 {
+  margin-top: 5%;
+  left: 10%;
+}
+
+.workshopimg {
+  position: absolute;
+  margin-top: 5%;
+  width: 30%;
+  object-fit: cover;
+  height: 35%;
+}
+
+#workshop2 {
+  margin-top: 5%;
+  left: 60%;
+}
+
+#sen1 {
+  font-size: 35px;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 23%;
+}
+
+#sen2 {
+  font-size: 25px;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 3%;
+  margin-bottom: 5%;
+}
+
+p {
+  color: white;
+}
+
+
+
+/* #body {
+  overflow-y: auto;
+} */

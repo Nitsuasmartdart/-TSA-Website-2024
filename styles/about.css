@@ -1,0 +1,154 @@
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Raleway;
+  font-weight: bold;
+  text-align: center;
+}
+
+/*Navbar*/
+
+
+.header {
+  top: 0;
+  width: 100%;
+  padding: 20px 0;
+  background: white;
+  height: 65px;
+  position: fixed;
+  z-index: 1000;
+}
+
+.logo {
+  width: 60px;
+  display: inline-block;
+}
+
+.navbarelement {
+  font-size: 18px;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 5%;
+  margin-right: 5%;
+  position: relative;
+}
+
+.navbarlink::before {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: black;
+  transition: .3s;
+}
+
+.navbarlink:hover::before {
+  width: 100%;
+}
+
+a {
+  text-align: center;
+}
+
+#navbardiv {
+  border-width: 4px;
+}
+
+#Homelink {
+  font-weight: bold;
+  color: black;
+}
+
+#Createlink {
+  color: rgb(232, 203, 34);
+}
+
+#Explorelink {
+  color: rgb(106, 165, 37);
+}
+
+#Elevatelink {
+  color: rgb(255, 166, 48);
+}
+
+#signupbuttonnavbar {
+  background: rgb(218, 51, 21);
+  border-radius: 25px;
+  border: none;
+  padding-bottom: 5px;
+  transition: 0.5s;
+  padding-top: 5px;
+  padding-right: 11px;
+  padding-left: 11px;
+  color: #000;
+  font-size: 18px;
+}
+
+#signupbuttonnavbar:hover {
+  color: rgb(218, 51, 21);
+  background-color: black;
+}
+
+/* NAVBAR */
+
+#house {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+
+}
+
+#humble {
+  font-size: 50px;
+  font-weight: bold;
+  top: 20%;
+  left: 30%;
+  display: block;
+  position: absolute;
+  /* margin-right: auto;
+  margin-left: auto; */
+  z-index: 101;
+}
+
+#quote1 {
+  width: 30%;
+  font-size: 20px;
+  font-weight: bold;
+  top: 28%;
+  left: 29.7%;
+  display: block;
+  position: absolute;
+  /* margin-right: auto;
+  margin-left: auto; */
+  z-index: 101;
+}
+
+#para1 {
+  position: absolute;
+  top: 67%;
+  left: 15%;
+  width: 20%;
+  font-size: 20px;
+
+}
+
+#possible {
+  position: absolute;
+  top: 60%;
+  left: 15%;
+  font-size: 50px;
+}
+
+#theteam {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+body {
+  overflow-y: scroll;
+}
