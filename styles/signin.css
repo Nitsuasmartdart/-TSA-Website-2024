@@ -170,7 +170,7 @@ input {
 }
 
 #signupbutton {
-  z-index: 100;
+  z-index: 105;
   width: 40%;
   font-size: 19px;
   color: white;
@@ -178,6 +178,7 @@ input {
   border: none;
   border-radius: 5px;
   transition: 0.3s;
+
 }
 
 #signupbutton:hover {

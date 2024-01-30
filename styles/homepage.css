@@ -21,10 +21,6 @@
   z-index: 1000;
 }
 
-.logo {
-  width: 60px;
-  display: inline-block;
-}
 
 .navbarelement {
   position: relative;
@@ -171,16 +167,7 @@
   margin-right: auto;
 }
 
-/* .container {
-  text-align: center;
 
-} */
-
-/* #joindiv {
-  position: relative;
-  /* width: 80px;
-  height: 0px; */
-/* } */
 
 */ #joinbuttonlink {
   width: 99.99;
@@ -215,9 +202,6 @@ body {
   overflow-x: hidden;
 }
 
-#video {
-  align-items: center;
-}
 
 /* homepage part 2 */
 
@@ -235,7 +219,7 @@ body {
 }
 
 #sattelite {
-  top: 2890px;
+  top: 317.5%;
   position: absolute;
   left: 0;
   width: 615px;
@@ -245,19 +229,19 @@ body {
 
 #EXPLOREsattelite {
   font-weight: 700;
-  top: 3100px;
+  top: 349%;
   position: absolute;
-  left: 10px;
+  left: 0.6%;
   color: rgb(106, 165, 37);
-  font-size: 40px;
+  font-size: 30px;
   transform: rotate(-20deg);
 
 }
 
 #makemake {
-  top: 3200px;
+  top: 350%;
   position: absolute;
-  left: 700px;
+  left: 36%;
   width: 500px;
   object-fit: cover;
   object-position: center;
@@ -265,39 +249,39 @@ body {
 
 #CREATEsattelite {
   font-weight: 700;
-  top: 2970px;
+  top: 330%;
   position: absolute;
-  left: 397px;
+  left: 25%;
   color: rgb(232, 203, 34);
-  font-size: 40px;
+  font-size: 30px;
   transform: rotate(-20deg);
 
 }
 
 #ELEVATEmakemake {
   font-weight: 700;
-  top: 3360px;
+  top: 368%;
   position: absolute;
-  left: 850px;
+  left: 45%;
   color: rgb(255, 141, 48);
-  font-size: 40px;
+  font-size: 30px;
 
 }
 
 #your {
   color: white;
   font-weight: 700;
-  top: 3360px;
+  top: 372%;
   position: absolute;
-  left: 1200px;
-  font-size: 40px;
+  left: 63%;
+  font-size: 30px;
 }
 
 #sun {
-  top: 2500px;
+  top: 277%;
   position: absolute;
-  left: 1300px;
-  width: 1700px;
+  left: 65%;
+  width: 35%;
   object-fit: cover;
   object-position: center;
 
@@ -306,30 +290,21 @@ body {
 #IDEASsun {
   color: white;
   font-weight: 700;
-  top: 3320px;
+  top: 369%;
   position: absolute;
-  left: 1750px;
+  left: 90%;
   font-size: 40px;
 
 }
 
-/* #paradiv {
-  background-color: white;
-  position: absolute;
-  z-index: 1000000px;
-  top: 37000;
-  left: 700px;
-  width: 500px;
-  height: 290px;
-} */
 
 #para {
   position: absolute;
   color: white;
-  top: 3700px;
-  width: 500px;
+  top: 405%;
+  width: 10vw;
   font-size: 20px;
-  left: 700px;
+  left: 34%;
   border: black;
   width: 30%;
   margin-left: auto;
@@ -347,18 +322,17 @@ body {
 
 #rocketmars {
   width: 1900px;
-  top: 4200px;
+  top: 460%;
   position: absolute;
-  left: -500px;
+  left: -30%;
   object-fit: cover;
   object-position: center;
-  bottom: 0%;
 }
 
 #marsexplore {
   color: white;
   font-weight: 700;
-  top: 4900px;
+  top: 537%;
   position: absolute;
   left: 1220px;
   font-size: 85px;
@@ -367,19 +341,20 @@ body {
 #marsyour {
   color: white;
   font-weight: 700;
-  top: 5000px;
+  top: 550%;
   position: absolute;
   left: 1220px;
   font-size: 40px;
+  width: 30vw;
 }
 
 #explorewmars {
   background-color: rgb(106, 165, 37);
   color: white;
   font-weight: 700;
-  top: 5100px;
+  top: 563%;
   position: absolute;
-  left: 1220px;
+  left: 64%;
   font-size: 35px;
   border: none;
   padding: 11px;
@@ -397,9 +372,9 @@ body {
 
 #clouds1 {
   width: 1900px;
-  top: 5100px;
+  top: 560%;
   position: absolute;
-  left: -500px;
+  left: -20%;
   object-fit: cover;
   object-position: center;
   bottom: 0%;
@@ -408,14 +383,92 @@ body {
 
 #clouds2 {
   width: 1900px;
-  top: 5100px;
+  top: 560%;
   position: absolute;
-  left: 600px;
+  left: 31%;
   object-fit: cover;
   object-position: center;
   bottom: 0%;
   opacity: 0.99;
 }
+
+
+#footer {
+  z-index: 100000000;
+  margin-top: 300%;
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  padding: 70px 0;
+  box-sizing: border-box;
+  background-color: black;
+}
+
+#innerfooter {
+  margin-top: auto;
+  margin-bottom: auto;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 70%;
+  height: 100%;
+}
+
+#innerfooter #references {
+  z-index: 1000000000000000000000000000000000;
+  width: 50%;
+  margin-right: 20px;
+  /* float: none; */
+  height: 100%;
+}
+
+#innerfooter #references h1 {
+  font-size: 22px;
+  color: grey;
+  display: block;
+  width: 100%;
+  margin-bottom: 10%;
+}
+
+#innerfooter #references a {
+  text-decoration: none;
+  font-size: 22px;
+  color: white;
+  display: block;
+  width: 100%;
+  margin-bottom: 1%;
+}
+
+#innerfooter2 #about {
+  z-index: 1000000000000000000000000000000000;
+  width: 50%;
+  /* margin-left: 20px; */
+  float: right;
+  height: 100%;
+}
+
+#innerfooter2 #about h1 {
+  font-size: 22px;
+  color: grey;
+  display: block;
+  width: 100%;
+  margin-bottom: 10%;
+}
+
+#innerfooter2 #about a {
+  text-decoration: none;
+  font-size: 22px;
+  color: white;
+  display: block;
+  width: 100%;
+  margin-bottom: 1%;
+}
+
+
+
+
+
+
 
 
 
@@ -445,13 +498,48 @@ body {
   }
 
   #IDEASsun {
+    position: absolute;
     left: 1400px;
+    top: 300px;
   }
 
+  #spaceshuttlepara {
+    font-size: 20px;
+  }
 
+  #joinbuttonb {
+    font-size: 20px;
+  }
+
+  #rocketmars {
+    width: 105%;
+  }
+
+  #marsexplore {
+    left: 60%;
+    font-size: 40px;
+  }
+
+  #marsyour {
+    font-size: 20px;
+    left: 60%;
+  }
+
+  #explorewmars {
+    font-size: 20px;
+  }
 }
 
+@media only screen and (max-width: 1265px) {
+  #joinbuttonb {
+    padding: 8px;
+  }
 
+  #spaceshuttlepara {
+    font-size: 18px;
+    width: 40%;
+  }
+}
 
 @media only screen and (max-width: 1125px) {
   .navbarlink {
@@ -460,7 +548,23 @@ body {
   }
 
 
+  #spaceshuttlepara {
+    margin-top: 100%;
+  }
 }
+
+@media only screen and (max-width: 883px) {
+  #spaceshuttlepara {
+    width: 57%;
+    left: 21%;
+  }
+}
+
+@media only screen and (max-width: 707px) {}
+
+
+
+
 
 @media only screen and (max-width: 860px) {
   .navbarlink {
@@ -494,6 +598,7 @@ body {
   }
 
 }
+
 
 @media only screen and (max-width: 400px) {
   .navbarlink {

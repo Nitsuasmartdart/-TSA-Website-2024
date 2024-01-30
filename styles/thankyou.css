@@ -138,3 +138,58 @@
   width: 1000px;
   height: 911px;
 }
+
+
+
+@media only screen and (max-width: 1125px) {
+  .navbarlink {
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+
+
+
+
+
+}
+
+@media only screen and (max-width: 860px) {
+  .navbarlink {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+}
+
+@media only screen and (max-width: 717px) {
+  .navbarlink {
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+  }
+}
+
+@media only screen and (max-width: 573px) {
+  .navbar a {
+    font-size: 11px;
+  }
+
+  #signupbuttonnavbar {
+    font-size: 11px;
+  }
+
+}
+
+
+@media only screen and (max-width: 400px) {
+  .navbarlink {
+    margin-left: .5%;
+    margin-right: .5%;
+  }
+
+  .navbar a {
+    font-size: 9px;
+  }
+
+  #signupbuttonnavbar {
+    font-size: 9px;
+  }
+}

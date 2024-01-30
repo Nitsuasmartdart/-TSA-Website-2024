@@ -112,3 +112,143 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
+
+
+#footer {
+  z-index: 100000000;
+  /* margin-top: 300%; */
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  padding: 70px 0;
+  box-sizing: border-box;
+  background-color: black;
+}
+
+#innerfooter {
+  margin-top: auto;
+  margin-bottom: auto;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 70%;
+  height: 100%;
+}
+
+#innerfooter #references {
+  z-index: 1000000000000000000000000000000000;
+  width: 50%;
+  margin-right: 20px;
+  /* float: none; */
+  height: 100%;
+}
+
+#innerfooter #references h1 {
+  font-size: 22px;
+  color: grey;
+  display: block;
+  width: 100%;
+  margin-bottom: 10%;
+}
+
+#innerfooter #references a {
+  text-decoration: none;
+  font-size: 22px;
+  color: white;
+  display: block;
+  width: 100%;
+  margin-bottom: 1%;
+}
+
+#innerfooter2 #about {
+  z-index: 1000000000000000000000000000000000;
+  width: 50%;
+  /* margin-left: 20px; */
+  float: right;
+  height: 100%;
+}
+
+#innerfooter2 #about h1 {
+  font-size: 22px;
+  color: grey;
+  display: block;
+  width: 100%;
+  margin-bottom: 10%;
+}
+
+#innerfooter2 #about a {
+  text-decoration: none;
+  font-size: 22px;
+  color: white;
+  display: block;
+  width: 100%;
+  margin-bottom: 1%;
+}
+
+
+
+
+@media only screen and (max-width: 1285px) {
+  #video {
+    width: 50%;
+  }
+
+  #explore {
+    font-size: 25px;
+    margin-top: 19%;
+  }
+
+  #your {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 1125px) {
+  .navbarlink {
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+
+
+}
+
+@media only screen and (max-width: 860px) {
+  .navbarlink {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+}
+
+@media only screen and (max-width: 717px) {
+  .navbarlink {
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+  }
+}
+
+@media only screen and (max-width: 573px) {
+  .navbar a {
+    font-size: 11px;
+  }
+
+  #signupbuttonnavbar {
+    font-size: 11px;
+  }
+
+}
+
+
+@media only screen and (max-width: 400px) {
+  .navbarlink {
+    margin-left: .5%;
+    margin-right: .5%;
+  }
+
+  .navbar a {
+    font-size: 9px;
+  }
+
+  #signupbuttonnavbar {
+    font-size: 9px;
+  }
+}
